@@ -1,0 +1,18 @@
+# this file tells Git which files or folders to ignore meaning Git wont track them 
+
+#Byecode
+ __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Virtual Environments
+env/
+venv/
+
+#IDE/editor settings
+.idea/
+.vscode/
+
+#Os-specific
+.DS_Store
