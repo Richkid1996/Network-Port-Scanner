@@ -1,4 +1,4 @@
-# Pyrhon Port Scanner
+# Python Port Scanner
 
 This project is a beginner-friendly network port scanner written in Python. 
 It scans for open TCP ports on a target host. Designed to demonstrate basic cybersecurity and networking skills.
