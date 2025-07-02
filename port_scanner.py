@@ -16,7 +16,7 @@ print(f"\nScanning target: {ip}\n")
 
 #Scan common ports (20 to 1024)
 for port in range(20, 1025):
-    s = socket.socket(socket.AF_INT, socket.SOCK_STREAM)
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(0.5) #Optional: speeds up scanning if host doesn't respond
     result = s.connect_ex((ip, port)) #0 = success (open port)
     if result == 0:
